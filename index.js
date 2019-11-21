@@ -1,15 +1,15 @@
-const animal = "dog"
+const mine = "dog"
+
 
 function myAnimal() {
-  return animal;
+  return mine
 }
 
 function yourAnimal() {
-  let animal = "cat";
-  return animal;
+  const yours = "cat"
+  return yours
 }
 
 function add2(n) {
-  const two = 2
-  return n + two;
+  return 2 + n
 }
